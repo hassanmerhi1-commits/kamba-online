@@ -46,14 +46,32 @@ Notes: the app must be open on the office computer. If the printer is off or out
 (shown as "Not printed") and can be reprinted. If Windows marks the printer offline, slips wait in the Windows queue.
 The slip is sent as raw ESC/POS (48 columns, code page 850 for Portuguese accents).
 
-## Rebuild the installer after changing the code
+## Online updates
+
+Code: https://github.com/hassanmerhi1-commits/kamba-online (public). The installed app checks GitHub Releases
+15 seconds after start and every 4 hours, downloads a newer version in the background, and asks "Restart now / Later"
+(Later = installs when the app is closed). Orders, products, photos and settings are kept. Menu: Kamba Online ->
+"Check for updates...".
+
+Publish a new version (from `desktop/`):
+
+```powershell
+npm version patch --no-git-tag-version   # 1.1.0 -> 1.1.1
+npm run release                          # builds, pushes to GitHub, publishes the release
+```
+
+Uploading the ~97 MB installer can take several minutes on a slow connection.
+Needs `gh auth login` done once (the release script ignores an invalid `GH_TOKEN` variable).
+Versions before 1.1.0 cannot update themselves: install 1.1.0 once, then updates are automatic.
+
+## Build the installer only (no publishing)
 
 ```powershell
 cd desktop
 npm run dist
 ```
 
-This builds the customer app and admin, then writes `desktop/release/Kamba Online Setup 1.0.0.exe`.
+This builds the customer app and admin, then writes `desktop/release/Kamba-Online-Setup-<version>.exe`.
 
 ## Developer mode (three terminals, live reload)
 
