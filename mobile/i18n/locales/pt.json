@@ -1,0 +1,115 @@
+{
+  "common": {
+    "appName": "Kamba Online",
+    "loading": "A carregar...",
+    "error": "Erro",
+    "serverUnreachable": "Não foi possível ligar ao servidor. Verifique se está a funcionar.",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "search": "Pesquisar produtos...",
+    "outOfStock": "Esgotado",
+    "addToCart": "Adicionar",
+    "viewAll": "Ver tudo",
+    "currency": "Kz"
+  },
+  "tabs": {
+    "home": "Início",
+    "shop": "Produtos",
+    "cart": "Carrinho",
+    "locations": "Lojas",
+    "account": "Conta"
+  },
+  "home": {
+    "title": "Vendas Online",
+    "brandName": "Bens Alimentar",
+    "subtitle": "A sua loja de bens alimentares em Soyo — qualidade e variedade para si.",
+    "categories": "Categorias",
+    "featured": "Destaques",
+    "orderViaWhatsApp": "Encomendar via WhatsApp"
+  },
+  "shop": {
+    "title": "Produtos",
+    "allCategories": "Todos",
+    "noProducts": "Nenhum produto encontrado.",
+    "inStock": "Disponível",
+    "placeholderImage": "Sem foto"
+  },
+  "product": {
+    "description": "Descrição",
+    "price": "Preço",
+    "unit": "Unidade",
+    "quantity": "Quantidade"
+  },
+  "cart": {
+    "title": "Carrinho",
+    "empty": "O seu carrinho está vazio.",
+    "total": "Total",
+    "checkout": "Finalizar encomenda",
+    "orderWhatsApp": "Encomendar via WhatsApp",
+    "remove": "Remover",
+    "continueShopping": "Continuar a comprar"
+  },
+  "checkout": {
+    "title": "Finalizar encomenda",
+    "fulfillment": "Como quer receber?",
+    "delivery": "Entrega",
+    "pickup": "Levantamento no escritório",
+    "deliveryAddress": "Morada de entrega",
+    "payment": "Forma de pagamento",
+    "cash": "Dinheiro",
+    "transfer": "Transferência bancária",
+    "multicaixa": "Multicaixa",
+    "other": "Outro",
+    "notes": "Notas (opcional)",
+    "placeOrder": "Confirmar encomenda",
+    "guestInfo": "Os seus dados",
+    "fullName": "Nome completo",
+    "phone": "Telefone",
+    "success": "Encomenda enviada!",
+    "successMessage": "Recebemos a sua encomenda. Entraremos em contacto em breve.",
+    "errorNamePhone": "Indique o seu nome e telefone.",
+    "errorAddress": "Indique a morada de entrega."
+  },
+  "locations": {
+    "title": "As nossas lojas",
+    "subtitle": "As nossas lojas em Soyo — encomendas pelo escritório central.",
+    "callOffice": "Ligar ao escritório central",
+    "call": "Ligar",
+    "directions": "Como chegar"
+  },
+  "account": {
+    "title": "Conta",
+    "login": "Entrar",
+    "register": "Criar conta",
+    "guest": "Continuar como convidado",
+    "logout": "Sair",
+    "myOrders": "As minhas encomendas",
+    "language": "Idioma",
+    "email": "Email",
+    "password": "Palavra-passe",
+    "noAccount": "Não tem conta?",
+    "hasAccount": "Já tem conta?",
+    "guestMode": "Modo convidado",
+    "profile": "Perfil"
+  },
+  "auth": {
+    "loginTitle": "Entrar",
+    "registerTitle": "Criar conta",
+    "loginError": "Email ou palavra-passe incorrectos.",
+    "registerError": "Não foi possível criar a conta."
+  },
+  "orders": {
+    "title": "Encomendas",
+    "empty": "Ainda não tem encomendas.",
+    "status": {
+      "pending": "Pendente",
+      "confirmed": "Confirmada",
+      "preparing": "A preparar",
+      "ready": "Pronta",
+      "delivered": "Entregue",
+      "cancelled": "Cancelada"
+    }
+  }
+}
+

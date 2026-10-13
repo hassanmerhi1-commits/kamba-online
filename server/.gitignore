@@ -1,0 +1,4 @@
+kamba.db
+kamba.db-*
+node_modules
+uploads/

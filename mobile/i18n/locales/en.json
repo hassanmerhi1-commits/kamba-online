@@ -1,0 +1,115 @@
+{
+  "common": {
+    "appName": "Kamba Online",
+    "loading": "Loading...",
+    "error": "Error",
+    "serverUnreachable": "Could not reach the server. Check that it is running.",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "search": "Search products...",
+    "outOfStock": "Out of stock",
+    "addToCart": "Add",
+    "viewAll": "View all",
+    "currency": "Kz"
+  },
+  "tabs": {
+    "home": "Home",
+    "shop": "Products",
+    "cart": "Cart",
+    "locations": "Stores",
+    "account": "Account"
+  },
+  "home": {
+    "title": "Online Sales",
+    "brandName": "Bens Alimentar",
+    "subtitle": "Your food goods store in Soyo — quality and variety for you.",
+    "categories": "Categories",
+    "featured": "Featured",
+    "orderViaWhatsApp": "Order via WhatsApp"
+  },
+  "shop": {
+    "title": "Products",
+    "allCategories": "All",
+    "noProducts": "No products found.",
+    "inStock": "Available",
+    "placeholderImage": "No photo"
+  },
+  "product": {
+    "description": "Description",
+    "price": "Price",
+    "unit": "Unit",
+    "quantity": "Quantity"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty.",
+    "total": "Total",
+    "checkout": "Checkout",
+    "orderWhatsApp": "Order via WhatsApp",
+    "remove": "Remove",
+    "continueShopping": "Continue shopping"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "fulfillment": "How do you want to receive?",
+    "delivery": "Delivery",
+    "pickup": "Pickup at main office",
+    "deliveryAddress": "Delivery address",
+    "payment": "Payment method",
+    "cash": "Cash",
+    "transfer": "Bank transfer",
+    "multicaixa": "Multicaixa",
+    "other": "Other",
+    "notes": "Notes (optional)",
+    "placeOrder": "Place order",
+    "guestInfo": "Your details",
+    "fullName": "Full name",
+    "phone": "Phone",
+    "success": "Order placed!",
+    "successMessage": "We received your order. We will contact you soon.",
+    "errorNamePhone": "Please enter your name and phone.",
+    "errorAddress": "Please enter the delivery address."
+  },
+  "locations": {
+    "title": "Our stores",
+    "subtitle": "Our stores in Soyo — orders through the main office.",
+    "callOffice": "Call the main office",
+    "call": "Call",
+    "directions": "Directions"
+  },
+  "account": {
+    "title": "Account",
+    "login": "Log in",
+    "register": "Create account",
+    "guest": "Continue as guest",
+    "logout": "Log out",
+    "myOrders": "My orders",
+    "language": "Language",
+    "email": "Email",
+    "password": "Password",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "guestMode": "Guest mode",
+    "profile": "Profile"
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "registerTitle": "Create account",
+    "loginError": "Invalid email or password.",
+    "registerError": "Could not create account."
+  },
+  "orders": {
+    "title": "Orders",
+    "empty": "You have no orders yet.",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "preparing": "Preparing",
+      "ready": "Ready",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    }
+  }
+}
+

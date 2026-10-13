@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamba Online — Test</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, sans-serif;
+      background: linear-gradient(135deg, #3d2b1f 0%, #8b3a1a 50%, #c45c26 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .box {
+      background: #fffbf5;
+      border-radius: 28px;
+      padding: 40px;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.35);
+      border: 1px solid #e8d5c4;
+    }
+    h1 { font-size: 28px; color: #3d2b1f; margin-bottom: 4px; font-weight: 800; }
+    .accent { width: 48px; height: 4px; background: #e9a319; border-radius: 999px; margin: 12px auto 16px; }
+    p { color: #6b5b4f; margin-bottom: 32px; font-size: 15px; }
+    a {
+      display: block;
+      padding: 18px 24px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 17px;
+      margin-bottom: 14px;
+      transition: transform 0.15s;
+    }
+    a:hover { transform: scale(1.02); }
+    .customer { background: #c45c26; color: #fff; }
+    .admin { background: #1b4332; color: #f4d58d; }
+    .label { font-size: 12px; opacity: 0.9; font-weight: 400; display: block; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Kamba Online</h1>
+    <div class="accent"></div>
+    <p>Choose how you want to test</p>
+    <a class="customer" href="http://localhost:8081" target="_blank">
+      Customer App
+      <span class="label">Shop, cart, orders — what your clients see</span>
+    </a>
+    <a class="admin" href="http://localhost:5173" target="_blank">
+      Admin Panel
+      <span class="label">Products, stock, orders — behind the scenes</span>
+    </a>
+  </div>
+</body>
+</html>

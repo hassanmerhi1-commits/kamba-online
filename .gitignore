@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# build output
+desktop/release/
+mobile/dist/
+admin/dist/
+.expo/
+dist/
+
+# local data (never publish)
+*.db
+*.db-wal
+*.db-shm
+server/uploads/
+.env
+.env.local
+
+# misc
+*.log
+.DS_Store
+Thumbs.db
