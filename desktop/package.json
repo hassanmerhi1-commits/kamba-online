@@ -52,6 +52,7 @@
         "releaseType": "release"
       }
     ],
+    "artifactName": "Kamba-Online-Setup-${version}.${ext}",
     "nsis": {
       "oneClick": false,
       "perMachine": false,
